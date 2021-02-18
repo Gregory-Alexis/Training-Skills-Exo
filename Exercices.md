@@ -1,27 +1,29 @@
 ** The Magic Eight Ball **
 
-  ```js 1. In the first line of the program, define a variable called userName that is set to an empty string.
+  ```js 
+1. In the first line of the program, define a variable called userName that is set to an empty string.
 
 If the user wants, he or she can enter his or her name in between the quotation marks.
 ```
 
-```js 2.Below this variable, create a ternary expression that decides what to do if the user enters a name or not.
+```js
+2.Below this variable, create a ternary expression that decides what to do if the user enters a name or not.
 
- If the user enters a name — like 'Jane' — use string interpolation to log Hello, Jane! to the console.
+If the user enters a name — like 'Jane' — use string interpolation to log Hello, Jane! to the console.
 
-  Otherwise, simply log Hello!.
+Otherwise, simply log Hello!.
 ```
 
 ```js
 3. Create a variable named userQuestion.
 
- The value of the variable should be a string that is the question the user wants to ask the Magic Eight Ball.
+The value of the variable should be a string that is the question the user wants to ask the Magic Eight Ball.
 ```
 
 ```js
 4.Write a console.log() for the userQuestion, stating what was asked.
 
- You can include the user’s name in the console.log() statement, if you wish!
+You can include the user’s name in the console.log() statement, if you wish!
 
 ```
 
