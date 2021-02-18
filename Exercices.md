@@ -1,21 +1,21 @@
 ** The Magic Eight Ball **
 
-  ```js 1. In the first line of the program, define a variable called userName that is set to an empty string.\n\
+  ```js 1. In the first line of the program, define a variable called userName that is set to an empty string.\n
 If the user wants, he or she can enter his or her name in between the quotation marks.
 ```
 
-```js 2.Below this variable, create a ternary expression that decides what to do if the user enters a name or not.\n\
- If the user enters a name — like 'Jane' — use string interpolation to log Hello, Jane! to the console.\n\
+```js 2.Below this variable, create a ternary expression that decides what to do if the user enters a name or not.\n
+ If the user enters a name — like 'Jane' — use string interpolation to log Hello, Jane! to the console.\n
   Otherwise, simply log Hello!.
 ```
 
 ```js
-3. Create a variable named userQuestion.\n\
+3. Create a variable named userQuestion.\n
  The value of the variable should be a string that is the question the user wants to ask the Magic Eight Ball.
 ```
 
 ```js
-4.Write a console.log() for the userQuestion, stating what was asked.\n\
+4.Write a console.log() for the userQuestion, stating what was asked.\n
  You can include the user’s name in the console.log() statement, if you wish!
 
 ```
@@ -25,20 +25,20 @@ If the user wants, he or she can enter his or her name in between the quotation 
 
 Create another variable, and name it randomNumber. Set it equal to this expression, which uses two methods from the Math library.
 
-Math.floor(Math.random() * 8)n\
+Math.floor(Math.random() * 8)
 
 randomNumber = Math.floor(Math.random() * 8)
 ```
 
 ```js
-6. Create one more variable named eightBall, and set it equal to an empty string.\n\
+6. Create one more variable named eightBall, and set it equal to an empty string.\n
 We will save a value to this variable in the next steps, depending on the value of randomNumber.
 ```
 
 ```js
-7. We need to create a control flow that takes in the randomNumber we made in step 4.\n\
+7. We need to create a control flow that takes in the randomNumber we made in step 4.\n
 Then assigns eightBall to a reply that a Magic Eight Ball would return.
-Think about utilizing if/else or switch statements.\n\
+Think about utilizing if/else or switch statements.\n
 Here are 8 Magic Eight Ball phrases that we’d like to save to the variable eightBall:
 
 'It is certain'
@@ -50,7 +50,7 @@ Here are 8 Magic Eight Ball phrases that we’d like to save to the variable eig
 'Outlook not so good'
 'Signs point to yes'
 
-If the randomNumber is 0, then save an answer to the eightBall variable;\n\
+If the randomNumber is 0, then save an answer to the eightBall variable;\n
  if randomNumber is 1, then save the next answer, and so on. If you’re feeling creative, make your own responses!
 ```
 
